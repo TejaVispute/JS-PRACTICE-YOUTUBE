@@ -27,6 +27,38 @@ const myFunction = function(){
     console.log("function")
 }
 
-console.log(typeof heros);
-console.log(typeof obj);
-console.log(typeof myFunction);
+// console.log(typeof heros);
+// console.log(typeof obj);
+// console.log(typeof myFunction);
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack memory (Premetie Datatype) heapmemory (Non Premetive Datatype)
+
+
+let myName="Tejas";
+
+let my2ndName="Teja";
+
+my2ndName="Bhaisa";
+
+console.log(myName);
+console.log(my2ndName)
+
+
+// in non premetive datatype
+
+
+let userOne={
+    name:"Tejas",
+    number:"8862019871"
+}
+
+let userTwo= userOne;
+
+userTwo.name="Teja";
+
+console.log(userOne.name)
+console.log(userTwo.name)
+
+
